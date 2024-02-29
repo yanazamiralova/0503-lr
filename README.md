@@ -1,5 +1,6 @@
 ## Тест модели "Название"
 
+```
 from unittest import skip
 from django.test import TestCase, RequestFactory
 from unittest.mock import Mock, patch
@@ -37,3 +38,4 @@ class ProductsListViewTest(TestCase):
         # Assert that the response contains the expected data
         self.assertContains(response, 'Телефон')
         self.assertContains(response, 'Микроволновка')
+```
