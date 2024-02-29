@@ -39,3 +39,7 @@ class ProductsListViewTest(TestCase):
         self.assertContains(response, 'Телефон')
         self.assertContains(response, 'Микроволновка')
 ```
+
+![image](https://github.com/yanazamiralova/0503-lr/assets/117967995/c9418340-a4ad-4fc6-b709-cfbba933c7fc)
+
+авпвап вапвапва вапвапавп
